@@ -30,7 +30,6 @@ public class InterceptorConfig extends WebMvcConfigurationSupport{
 		registry.addResourceHandler("/**")
         .addResourceLocations("classpath:/resources/")
         .addResourceLocations("classpath:/static/")
-        .addResourceLocations("classpath:/admin/")
         .addResourceLocations("classpath:/img/")
         .addResourceLocations("classpath:/front/")
         .addResourceLocations("classpath:/public/");
