@@ -398,15 +398,6 @@
                     // });
                 }
             });
-            // 充值
-            jquery('#btn-recharge').click(function(e) {
-                layer.open({
-                    type: 2,
-                    title: '用户充值',
-                    area: ['900px', '600px'],
-                    content: '../recharge/recharge.html'
-                });
-            });
 
             // 获取轮播图 数据
             http.request('config/list', 'get', {
